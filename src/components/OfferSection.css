@@ -3,6 +3,7 @@
   background-color: rgba(138, 43, 226, 0.1);
   height:"600px";
   width:"100vw";
+  padding:1%;
 }
 
 .offer-section h2 {
@@ -63,12 +64,12 @@
 @media (max-width: 1200px) {
   .outerdiv {
     width: "1200px";
-    margin: "auto";
+    margin-top: 10;
     display: "flex";
-    flexdirection: "column";
+    flex-direction: "column";
     flexwrap: "wrap";
-    padding: "6rem 0";
-    gap:20px;
+    padding: 1rem;
+    gap:10px;
   }
   .outerdiv h2{
     text-align:"center"
@@ -76,8 +77,9 @@
   .offer-section {
     text-align: center;
     background-color: rgba(138, 43, 226, 0.1);
-    height:"900px";
+    height:"100px";
     width:"100vw";
     padding: 3rem 0rem;
+    margin-top: 10%;
   }
 }
