@@ -1,0 +1,83 @@
+.offer-section {
+  text-align: center;
+  background-color: rgba(138, 43, 226, 0.1);
+  height:"600px";
+  width:"100vw";
+}
+
+.offer-section h2 {
+  /* margin-bottom: 40px; */
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 3rem;
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #0d0d0d;
+  text-align: left;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.card li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.card li::before {
+  content: "→ ";
+  color: black;
+}
+.outerdiv {
+  width: "1200px";
+  margin: "10px";
+  display: "flex";
+  flex-direction: "column";
+  flexwrap: "wrap";
+  padding: "6rem 0";
+  gap:20px;
+}
+
+@media (max-width: 1200px) {
+  .outerdiv {
+    width: "1200px";
+    margin: "auto";
+    display: "flex";
+    flexdirection: "column";
+    flexwrap: "wrap";
+    padding: "6rem 0";
+    gap:20px;
+  }
+  .outerdiv h2{
+    text-align:"center"
+  }
+  .offer-section {
+    text-align: center;
+    background-color: rgba(138, 43, 226, 0.1);
+    height:"900px";
+    width:"100vw";
+    padding: 3rem 0rem;
+  }
+}

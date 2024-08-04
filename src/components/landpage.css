@@ -1,0 +1,117 @@
+
+*{
+    box-sizing: border-box;
+   
+}
+
+.layout{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid black; */
+    padding: 4rem 8rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    align-items: center;
+    
+     justify-content: space-between; 
+    gap: 1rem;
+    background-color: white;
+}
+.layCard{
+    height: 350px;
+    width: 25rem ;
+    /* border: 2px solid red; */
+    padding: "10px";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.smallerbox{
+    height:100%;
+    width:12rem;
+    /* border:2px solid black */
+
+}
+.smallerbox .image{
+    height:50%;
+    width: 100%;
+}
+.smallerbox .image img{
+    /* object-fit: contain; */
+    height: 100%;
+    width: 100%;
+    /* margin: 10px 0px; */
+    border-radius: 7px;
+}
+.card2 .image{
+    margin-top:110px;
+}
+.card2 .greenbox{
+    margin: 10px 0px;
+}
+.card3 .purplebox{
+    margin:0px 0;
+}
+.card3 .image{
+    margin: 10px 0;
+}
+
+.purplebox{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(171, 95, 242);
+    margin:12px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.purplebox h3{
+    font-size: 2.8rem;
+    text-align: start;
+}
+.purplebox p{
+    font-size: 0.8rem;
+    text-align: start;
+}
+.greenbox{
+    background-color: rgb(128, 195, 28);
+    height: 45px ;
+    width: 100% ;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:1300px) {
+    .layout{
+        height: 770px;
+        width: 1200x;
+        /* border: 2px solid black; */
+        padding: 4rem 4rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* grid-template-rows: repeat(1,1fr); */
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
+        background-color: white;
+        
+    }
+    
+}
+@media (max-width:950px) { 
+    .layout{
+        height: 1150px;
+        width: 830px;
+        /* border: 2px solid black; */
+        padding: 1rem 5rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center; 
+        background-color: white;
+        
+    }
+
+  
+    
+}
