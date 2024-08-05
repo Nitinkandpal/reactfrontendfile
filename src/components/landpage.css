@@ -81,7 +81,7 @@
     margin-bottom: 10px;
 }
 
-@media (max-width:1300px) {
+@media (max-width:1200px) {
     .layout{
         height: 770px;
         width: 1200x;
@@ -98,10 +98,10 @@
     }
     
 }
-@media (max-width:950px) { 
+@media (max-width:850px) { 
     .layout{
         height: 1150px;
-        width: 830px;
+        width: 100%;
         /* border: 2px solid black; */
         padding: 1rem 5rem;
         display: grid;
