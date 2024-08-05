@@ -191,7 +191,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 0px;
     height: 10px;
     margin-bottom: 0rem;
     background-color: white;
@@ -201,7 +201,7 @@ header {
 
   .hamburger-menu {
     display: flex;
-    align-items: start;
+    align-items: center;
     
   }
   .nav-links ul {
