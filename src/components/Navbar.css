@@ -179,6 +179,13 @@ header {
     top: 60px;
 
   }
+  .auth-links ul {
+    flex-direction: column;
+    display: flex;
+      padding-top: 0%;
+      margin: 0;
+  background-color: white;
+  }
 
   .navbar {
     display: flex;
